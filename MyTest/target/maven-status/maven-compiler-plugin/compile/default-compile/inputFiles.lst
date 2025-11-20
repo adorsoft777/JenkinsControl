@@ -1,0 +1,12 @@
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\controller\TodoController.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\dto\CreateTodoRequest.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\dto\TodoDto.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\dto\UpdateTodoRequest.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\exception\ResourceNotFoundException.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\mapper\TodoMapper.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\model\Todo.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\repository\TodoRepository.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\service\EmailService.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\service\TodoService.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\service\TodoServiceImpl.java
+C:\Users\Adem\Desktop\test\src\main\java\com\ademarli\test\TestApplication.java

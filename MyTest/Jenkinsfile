@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build & Test') {
+            steps {
+                // Maven Wrapper ile test ve entegrasyon testlerini çalıştır
+                bat './mvnw clean verify'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                // Deploy sırasında ekrana mesaj yazdır
+                echo 'Deploy işlemi tamamlandı.'
+            }
+        }
+    }
+    post {
+        always {
+            // Surefire ve Failsafe raporlarını archive et
+            junit '**/target/surefire-reports/*.xml'
+            junit '**/target/failsafe-reports/*.xml'
+        }
+    }
+}
