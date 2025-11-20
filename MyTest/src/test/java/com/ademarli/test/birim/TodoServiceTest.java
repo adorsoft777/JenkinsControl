@@ -28,6 +28,7 @@ public class TodoServiceTest {
     @Mock
     EmailService emailService;
 
+
     LocalDateTime date = LocalDateTime.now();
 
     @InjectMocks
